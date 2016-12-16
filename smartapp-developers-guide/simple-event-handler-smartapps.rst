@@ -134,6 +134,17 @@ Refer to the `Sunset and Sunrise <http://docs.smartthings.com/en/latest/smartapp
 
 ----
 
+Capabilities and Devices
+------------------------
+
+Different devices can have a same capability. 
+For example, if an ``input`` in the ``preferences`` section requests for ``capability.battery``, then a lock, a smoke detector and a water sensor at that location will be matched, assuming all these three devices have battery capability attribute.  
+However, you can only interact with the *battery capability* of any of these three devices. 
+In this instance, even though the lock device is a match, you cannot interact with the ``lock`` attribute (i.e., cannot ``subscribe()`` to the ``lock`` attribute events).
+
+If you need to interact with the ``lock`` attribute, then the permission for it must be explicitly requested, with ``additionalPermissions()`` method call.  
+
+
 The Event Object
 ----------------
 
