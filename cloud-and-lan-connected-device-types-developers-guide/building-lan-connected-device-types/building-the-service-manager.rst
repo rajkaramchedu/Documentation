@@ -1,3 +1,5 @@
+.. _building_servicemanager:
+
 ============================
 Building the Service Manager
 ============================

@@ -1,3 +1,5 @@
+.. _building_devicetype:
+
 Building the Device Type
 ========================
 

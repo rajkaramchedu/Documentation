@@ -56,18 +56,19 @@ When appropriate, we have included various tips or warnings. In cases where an A
 
    smartapp-ref
    device-handler-ref
+   app-state-ref
+   async-http-ref
+   async-response-ref
    attribute-ref
    capability-ref
    command-ref
    device-ref
    event-ref
    hub-ref
+   hubaction-ref
    installed-smart-app-wrapper-ref
    location-ref
    mode-ref
    state-ref
-   app-state-ref
-   async-http-ref
-   async-response-ref
    zigbee-ref
    z-wave-ref

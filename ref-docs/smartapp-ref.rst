@@ -577,6 +577,21 @@ Returns a list of all child devices. An example use would be in service manager 
 
 ----
 
+.. _smartapp_getlocation:
+
+getLocation()
+-------------
+
+The :ref:`location_ref` into which this SmartApp has been installed.
+
+**Signature:**
+    ``Location getLocation()``
+
+**Returns:**
+    :ref:`location_ref` - The Location into which this SmartApp has been installed.
+
+----
+
 .. _smartapp_get_sunrise_and_sunset:
 
 getSunriseAndSunset()
@@ -1001,19 +1016,6 @@ If the response content type is JSON, the response data will automatically be pa
     =================== ==============
 
     `Closure`_ `closure` - The closure that will be called with the response of the request.
-
-----
-
-getLocation()
--------------
-
-The :ref:`location_ref` into which this SmartApp has been installed.
-
-**Signature:**
-    ``Location getLocation()``
-
-**Returns:**
-    :ref:`location_ref` - The Location into which this SmartApp has been installed.
 
 ----
 
