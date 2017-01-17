@@ -76,7 +76,7 @@ body                Request body that will be encoded based on the given content
 
 .. note::
 
-    Specifying a ``reqeustContentType`` may override the default behavior of the various http API you are calling.
+    Specifying a ``requestContentType`` may override the default behavior of the various http API you are calling.
     For example, ``httpPostJson()`` sets the ``requestContentType`` to ``"application/json"`` by default.
 
 ----
@@ -84,7 +84,7 @@ body                Request body that will be encoded based on the given content
 Handling The Response
 ---------------------
 
-The HTTP APIs accept a closure that will be called with the response information from the reqeust.
+The HTTP APIs accept a closure that will be called with the response information from the request.
 
 The closure is passed an instance of a `HttpResponseDecorator <https://github.com/jgritman/httpbuilder/blob/855e1784be8585de81cc3c99fd19285798c7bc4f/src/main/java/groovyx/net/http/HttpResponseDecorator.java>`__.
 You can inspect this object to get information about the response.

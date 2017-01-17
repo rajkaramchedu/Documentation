@@ -52,7 +52,7 @@ To create a HubAction object, you can pass in a map of parameters to the constru
 A brief discussion of the options that can be provided follows:
 
 *method*
-    The HTTP method to use for the reqeust.
+    The HTTP method to use for the request.
 *path*
     The path to send the request to. You can add URL parameters to the request directly, or use the ``query`` option.
 *headers*
