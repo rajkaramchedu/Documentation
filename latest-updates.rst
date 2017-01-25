@@ -7,7 +7,7 @@ Latest Updates
 January 23 2017
 ---------------
 
-- While using the ``HubAction`` class is discussed is the :ref:`LAN Device Handler Guide <lan_device_handler_guide>`, there was no reference documentation available for it. We've addressed that by adding a :ref:`new reference document for HubAction! <hubaction_ref>`
+- Search, discover and communicate with the devices in your network with the ``HubAction`` class. Check out the :ref:`new reference document for HubAction <hubaction_ref>`.
 - If you need to get the account ID associated with an installed SmartApp, check out the :ref:`isa_ref_get_account_id` method available on the :ref:`installed_smart_app_wrapper` object!
 - We've updated the :ref:`editor_and_simulator` guide to clarify that you need to ensure you are on the correct shard when creating SmartApps or Device Handlers.
 - A new Capability, :ref:`infraredLevel`, is now available!
