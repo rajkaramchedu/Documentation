@@ -1,5 +1,5 @@
 Arduino ThingShield
-==========================
+===================
 
 .. warning::
 
@@ -15,7 +15,7 @@ Specs:
  - Dimensions: 2.5 x 1.9 x 0.3”
  - Weight: 8 ounces
 
-Installing the Library
+Installing the library
 ----------------------
 
 To install, copy the entire SmartThings directory into the ‘libraries’ directory in your sketchbook. Your sketchbook location is set in the Arduino IDE preferences, by default, the location will be:
@@ -28,7 +28,7 @@ OSX:
 
 You can download the `SmartThings Arduino Library here <http://cl.ly/ZMHh>`__.
 
-Pairing the Shield
+Pairing the shield
 ------------------
 
 To join the shield to your SmartThings hub, go to “Add SmartThings” mode in the
@@ -55,7 +55,7 @@ Your Arduino will now be able to accept the commands "on" "off", and "hello"
 
 `Here is a different Device Handler that can read a string sent from an Arduino and display it in a tile <https://gist.github.com/aurman/6546257>`__.
 
-Arduino Examples
+Arduino examples
 ----------------
 
 We have created some example Arduino Sketches (code) to use as a reference for building your own devices. The following is meant to go with the ”On/Off Shield (example)” Device Handler.

@@ -347,7 +347,7 @@ If for some reason it is necessary, add a comment describing why it is necessary
 
 ----
 
-Security Considerations
+Security considerations
 -----------------------
 
 Subscriptions should be clear
@@ -424,7 +424,7 @@ They should always use a number provided by the user using the :ref:`contact inp
 Performance
 -----------
 
-Do not use busy-loops
+Do not use busy loops
 ^^^^^^^^^^^^^^^^^^^^^
 
 There is no good reason for the code to run busy loops.
@@ -456,7 +456,7 @@ Because of this, trying to force synchronous behavior by using ``synchronized`` 
 
 ----
 
-LAN-Specific
+LAN-specific
 ------------
 
 Use the device-specific search
@@ -474,7 +474,7 @@ This can happen when the router power cycles and loses its DHCP mappings.
 
 .. _review_guidelines_parent_child:
 
-Parent-Child Relationships
+Parent-child relationships
 --------------------------
 
 Use separate files
