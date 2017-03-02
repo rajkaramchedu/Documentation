@@ -5,9 +5,11 @@ API Documentation
 
 This is where you can find API-level documentation for the various objects available in your SmartApps and Device Handlers.
 
-**How to Read The Docs**
+How to read the docs
+--------------------
 
-*Objects*
+Objects
+^^^^^^^
 
 SmartThings objects are rarely created directly by SmartApp or Device Handler developers. Instead, various objects are already created and available in your applications.
 
@@ -15,7 +17,8 @@ You will rarely see constructor documentation for this reason. Each object will 
 
 Also worth noting is that some of the "objects" documented are not really objects at all. A SmartApp is not an object, in the strict sense of the word, for example (neither is a Device Handler). But each running execution of a SmartApp or Device Handler has available to it many methods and properties. For convenience, we have organized the methods available to SmartApps and Device Handlers into the SmartApp or Device Handler API documentation.
 
-*Object Wrappers*
+Object wrappers
+^^^^^^^^^^^^^^^
 
 You may notice in various log messages or error messages that the objects are actually wrapper objects. For example, ``Event`` is actually an instance of ``EventWrapper``. We have wrapped many of our core objects with wrapper objects to protect access to the underlying system object.
 
@@ -23,7 +26,8 @@ This should be transparent to developers, since these objects cannot be instanti
 
 But, should you be confused about messages in the log, this is why.
 
-*Dynamic Methods*
+Dynamic methods
+^^^^^^^^^^^^^^^
 
 The Groovy programming language offers a powerful feature called `Metaprogramming <http://www.groovy-lang.org/metaprogramming.html>`__ that (among other things) allows for Groovy programs to be written in a way that *methods can be created dynamically at run time.*
 
@@ -31,7 +35,8 @@ SmartThings makes use of this powerful feature in a few ways. For example, you c
 
 This powerful feature can make documenting all available methods difficult, since methods may not exist until runtime. For any dynamic methods, the method or property will be enclosed in ``<>``, and a description and example will be given.
 
-*Conventions*
+Conventions
+^^^^^^^^^^^
 
 All methods are listed in alphabetical order, with the exception of SmartApp and Device Handler methods that are expected to be defined by SmartApps and Device Handlers - those will be listed first.
 
@@ -49,7 +54,8 @@ Code examples may not be executable as-is. Since SmartApps and Device Handlers e
 
 When appropriate, we have included various tips or warnings. In cases where an API is not adequately documented currently, we have called attention to that. We plan to add the supporting documentation soon!
 
-**API Contents**
+API Contents
+------------
 
 .. toctree::
    :maxdepth: 1

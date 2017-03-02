@@ -42,7 +42,7 @@ deviceJoinName        ``String``  Overrides the device type name when pairing. T
 
 ----
 
-Parse Methods
+Parse methods
 -------------
 
 zigbee.getEvent()
@@ -94,7 +94,7 @@ colorTemperature   0x0300
 
 ----
 
-Low Level Commands
+Low level commands
 ------------------
 
 additionalParams
@@ -340,7 +340,7 @@ Sets the color to the specified temperature value in K.
 
 ----
 
-ZigBee Helper Commands
+ZigBee helper commands
 ----------------------
 
 zigbee.parseDescriptionAsMap()
@@ -441,7 +441,7 @@ should be of the form "zone status {number}" where {number} is a hex number.
 
 .. _zigbee_additional_zigbee_classes:
 
-Additional ZigBee Classes
+Additional ZigBee classes
 -------------------------
 
 There are some additional classes that are provided to make interacting with and handling Zigbee messages easier.
@@ -547,7 +547,7 @@ DataType
 
 The ``DataType`` class contains information and some utility methods for ZCL data types.
 
-DataType Constants
+DataType constants
 >>>>>>>>>>>>>>>>>>
 
 The list of types and their ``DataType`` constant name are as follows:

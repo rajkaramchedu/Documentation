@@ -1,8 +1,8 @@
 .. _async_http_response_ref:
 
-=====================
-AsyncResponse (Beta!)
-=====================
+====================
+AsyncResponse (Beta)
+====================
 
 .. include:: ../common/async-http-beta-note.txt
 

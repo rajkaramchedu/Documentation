@@ -1,8 +1,8 @@
 .. _async_http_api_ref:
 
-======================
-Async HTTP API (Beta!)
-======================
+=====================
+Async HTTP API (Beta)
+=====================
 
 .. include:: ../common/async-http-beta-note.txt
 

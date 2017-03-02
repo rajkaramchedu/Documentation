@@ -44,7 +44,7 @@ Capabilities Reference
 
     ----
 
-    Capabilities at a Glance
+    Capabilities at a glance
     ------------------------
 
     The Capabilities reference table below lists all capabilities. The various columns are:
