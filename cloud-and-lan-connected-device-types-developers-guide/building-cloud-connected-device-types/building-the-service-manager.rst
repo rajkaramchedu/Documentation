@@ -17,7 +17,7 @@ Authentication using OAuth
 Any Service Manager authenticated with a third party via OAuth must itself have OAuth enabled. 
 This is because eventually the third-party service will call back into the SmartApp and hit the ``/oauth/initialize`` and ``/oauth/callback`` endpoints.
 
-End User Experience
+End user experience
 ~~~~~~~~~~~~~~~~~~~
 
 As an end user you start by selecting the Service Manager SmartApp for Ecobee Thermostat from the SmartApps screen of the SmartThings mobile app.
@@ -117,7 +117,7 @@ There are a few things worth noting here:
 - First, we are using ``state`` to store our tokens. Your specific needs may be different depending on your implementation. To learn more about how ``state`` works and what your options are, visit the :ref:`storing-data` guide.
 - If we do not have a token from the third-party service, we start the OAuth flow by calling the SmartThings ``initialize`` endpoint. This is a static endpoint that will store a few bits of information about your SmartApp, such as the ``id``, and forwards the request to the ``/oauth/initalize`` endpoint defined in the SmartApp.
 
-Initialize Endpoint
+Initialize endpoint
 ~~~~~~~~~~~~~~~~~~~
 
 This endpoint is used to initialize the OAuth flow to a third-party service. 
@@ -194,7 +194,7 @@ state             Usually the ``state`` is not required, but is used to track st
 redirect_uri      The URI to be redirected to after the user has successfully authenticated with the third-party service. Usually this information is requested when signing up with the third-party service. This parameter must match what was entered at that time. For SmartApp development, this should always be the static value: ``https://graph.api.smartthings.com/oauth/callback``.
 ================= ===========
 
-Callback Endpoint
+Callback endpoint
 ~~~~~~~~~~~~~~~~~
 
 The third-party service will redirect the user to the callback endpoint after the user has been successfully authenticated. 
@@ -302,7 +302,7 @@ Usually the next step is to display some message to the end user about the succe
     This is true when a user uninstalls the SmartApp. 
     It is also a good practice to revoke the access token after successful authentication with the 3rd party, unless the token will be used to access other endpoints in your SmartApp.
 
-Refreshing the OAuth Token
+Refreshing the OAuth token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OAuth tokens are available for a finite amount of time, so you will
@@ -362,7 +362,7 @@ In this case, *and ONLY in this case*, the Service Manager SmartApp issues its o
 Discovery
 ---------
 
-Identifying Devices in the Third-Party Device Cloud
+Identifying devices in the third-party device cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The techniques you will use to identify devices in the third-party
@@ -383,7 +383,7 @@ For example, it could be as simple as this:
             //Handle the response here
     }
 
-Creating Child-Devices
+Creating child devices
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Within a Service Manager SmartApp, you create child devices for all your respective cloud devices.
@@ -397,7 +397,7 @@ Within a Service Manager SmartApp, you create child devices for all your respect
       }
     }
 
-Getting Initial Device State
+Getting initial device state
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Upon initial discovery of a device, you need to get the state of your device from the third party API. 
@@ -426,7 +426,7 @@ Here is a very simple example which doesn't take into account error checking for
         }
     }
 
-Handling Adds, Changes, Deletes
+Handling adds, changes, deletes
 -------------------------------
 
 singleInstance Service Manager
@@ -450,7 +450,7 @@ This enforces a one-to-many relationship between the parent Service Manager Smar
         singleInstance: true)
 
 
-Implicit Creation of New Child Devices
+Implicit creation of new child Devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you update your settings in a Service Manager to add additional
@@ -476,7 +476,7 @@ in SmartThings.
         }
     }
 
-Implicit Removal of Child Devices
+Implicit removal of child Devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Similarly when you remove devices in your Service Manager, they
@@ -508,12 +508,12 @@ Also, when a Service Manager SmartApp is uninstalled, you need to remove its chi
 
     The ``addChildDevice``, ``getChildDevices``, and ``deleteChildDevice`` methods are a part of the :ref:`smartapp_ref` API.
 
-Changes in Device Name
+Changes in Device name
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The device name is stored within the device and you need to monitor if it changes in the third-party cloud.
 
-Explicit Delete Actions
+Explicit delete actions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 When a user manually deletes a device in the Things screen on the client device, you need to delete the child device from within the Service Manager.

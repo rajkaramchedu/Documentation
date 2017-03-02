@@ -136,7 +136,7 @@ Note that not at all devices support binding for events.
 
 ----
 
-ZigBee Utilities
+ZigBee utilities
 ----------------
 
 In order to work with ZigBee you will need to use the ZigBee Cluster Library extensively to look up the proper values to send back and forth to your device.
@@ -146,7 +146,7 @@ There is also a ZigBee utility class covered in the :ref:`zigbee_ref`
 
 ----
 
-Best Practices
+Best practices
 --------------
 
 - The use of 'raw ...' commands is deprecated. Instead use the documented methods on the zigbee library. If you need to do something that requires the use of a 'raw' command let us know and we will look at adding it to the zigbee library.

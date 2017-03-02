@@ -1,12 +1,13 @@
 Division of Labor
 =================
 
-The cloud connected device paradigm consists of a Service Manager and Device Handlers. The purpose of this guide is
+The Cloud-connected device paradigm consists of a Service Manager and Device Handlers. 
+The purpose of this guide is
 to introduce you to the core concepts of cloud connected device development, and provide some examples to help you get
 started.
 
 
-Service-Manager Responsibilities
+Service Manager responsibilities
 --------------------------------
 
 The service manager is responsible for the discovery of the devices. It
@@ -15,7 +16,7 @@ response, finding just the devices you are looking for. Upon discovery,
 it allows you to add device(s) that it has found. From there, it saves
 your connection to be able to make future interactions with the device.
 
-Device Handler Responsibilities
+Device Handler responsibilities
 -------------------------------
 
 The device handler is responsible for creating and receiving device
@@ -25,7 +26,7 @@ device specific commands to be passed to the cloud. It also allows you
 to subscribe to responses from the device and trigger other commands as
 needed.
 
-How It All Works
+How it all works
 ----------------
 
 The following depiction gives a general overview of how a cloud connected device works. Take note of

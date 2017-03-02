@@ -7,7 +7,7 @@ The device handler for a LAN connected device is generally the same as any other
 it handles sending and receiving messages from its device is a little bit different. Let's walk through a LAN connected
 device handler example.
 
-Making Outbound HTTP Calls with HubAction
+Making outbound HTTP calls with HubAction
 -----------------------------------------
 
 Depending on the type of device you are using, you will send requests to
@@ -35,7 +35,7 @@ So remember - the ``HubAction`` instance should be returned from your command me
 
 ----
 
-Creating a HubAction Object
+Creating a HubAction object
 ---------------------------
 
 To create a HubAction object, you can pass in a map of parameters to the constructor that defines the request information:
@@ -64,7 +64,7 @@ A brief discussion of the options that can be provided follows:
 
 ----
 
-Parsing the Response
+Parsing the response
 --------------------
 
 When you make a request to your device using ``HubAction``, any response will be passed to your device-handler's ``parse`` method, just like other device messages.
@@ -94,7 +94,7 @@ For more information about the JSON or XML response formats, see the Groovy `Jso
 
 ----
 
-Getting the Addresses
+Getting the addresses
 ---------------------
 
 To use HubAction, you will need the IP address of the device, and sometimes the hub.
@@ -139,7 +139,7 @@ You'll see the rest of the examples in this document use these helper methods.
 
 ----
 
-Wake On Lan (WOL)
+Wake on LAN (WOL)
 -----------------
 
 ``HubAction`` can be used to make `WOL <https://en.wikipedia.org/wiki/Wake-on-LAN>`__ requests.
@@ -174,7 +174,7 @@ This password must be configured on the NIC. If the NIC does not support *Secure
 
 ----
 
-REST Requests
+REST requests
 -------------
 
 ``HubAction`` can be used to make `REST <http://en.wikipedia.org/wiki/Representational_state_transfer>`__ calls to communicate with the device.
@@ -196,7 +196,7 @@ Here's a quick example:
 
 ----
 
-UPnP/SOAP Requests
+UPnP/SOAP requests
 ------------------
 
 Alternatively, after making the initial connection you can use UPnP.
@@ -226,7 +226,7 @@ Here's an example of using ``HubSoapAction``:
 
 ----
 
-Subscribing to Device Events
+Subscribing to device Events
 ----------------------------
 
 If you'd like to hear back from a LAN connected device upon a particular
@@ -263,7 +263,7 @@ Here's an example using UPnP:
 
 ----
 
-References and Resources
+References and resources
 ------------------------
 
 - `UPnP <http://en.wikipedia.org/wiki/Universal_Plug_and_Play>`__

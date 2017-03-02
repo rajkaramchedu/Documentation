@@ -49,7 +49,7 @@ Off				200100
 
 ----
 
-Core Concepts
+Core concepts
 -------------
 
 To understand how device handlers work, a few core concepts need to be discussed.
@@ -147,7 +147,7 @@ This guide will discuss both Z-Wave and ZigBee protocols at a high level.
 
 ----
 
-Execution Location
+Execution location
 ------------------
 
 With the original SmartThings hub, all Device handlers execute in the SmartThings cloud.

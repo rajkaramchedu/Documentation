@@ -30,7 +30,7 @@ Some tiles are display-only, while others allow the user to interact with the ti
 
 ----
 
-Tiles Basics
+Tiles basics
 ------------
 
 .. tip::
@@ -157,7 +157,7 @@ We can specify the ``canChangeIcon: true`` option to allow the user to select an
 If not specified, ``canChangeIcon`` is assumed to be false.
 Only the tile specified as the main tile should specify ``canChangeIcon``.
 
-Tiles and Attribute State
+Tiles and Attribute state
 -------------------------
 
 Tiles display data about a device's attributes, and may allow those attributes to be updated through user interaction.
@@ -188,7 +188,7 @@ For attributes whose value are not finite values (examples include "temperature"
         state "level", label: '${currentValue}'
     }
 
-(You can learn more about using dynamic state labels (``'${currentValue}'`` above) :ref:`here <state_labels>`.
+You can learn more about using dynamic state labels (``'${currentValue}'`` above) :ref:`here <state_labels>`.
 
 In the case of the "switch" attribute, we need to define two states, one for "on" and one for "off":
 
@@ -1004,7 +1004,7 @@ Key                    Description
 
 .. _additional_info:
 
-Additional Information
+Additional information
 ----------------------
 
 - If using the ``SECONDARY_CONTROL``, ``SLIDER_CONTROL``, and ``COLOR_CONTROL`` controls in the same Multi-Attribute Tile, the values for the secondary and slider control will display as a Marquee on Android.

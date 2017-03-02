@@ -1,8 +1,8 @@
-Building LAN-Connected Device Types
+Building LAN-connected Device Types
 ===================================
 
-LAN connected devices communicate with the SmartThings hub over the LAN. An example of such a device is the
-Sonos system.
+LAN-connected devices communicate with the SmartThings hub over the LAN. 
+An example of such a device is the Sonos system.
 
 When developing a device handler for a LAN device, you must create a service manager
 SmartApp that will handle discovery of devices on the LAN, in some cases communicate with the device, and react to any

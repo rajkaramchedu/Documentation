@@ -10,7 +10,7 @@ You can also consult the `Z-Wave public specification <http://z-wave.sigmadesign
 
 ----
 
-Command Classes
+Command classes
 ---------------
 
 Z-Wave device messages are all called "commands", even if they are just info reports or other kinds of communications.
@@ -65,7 +65,7 @@ Some commonly seen command classes:
 
 ----
 
-Listening and Sleepy Devices
+Listening and sleepy devices
 ----------------------------
 
 Z-Wave devices that are plugged in to power are called **listening** devices because they keep their receiver on all the time.

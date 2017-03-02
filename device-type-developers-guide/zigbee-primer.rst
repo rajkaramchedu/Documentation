@@ -123,7 +123,7 @@ Breaking the payload down we see that the hex value of 0x0014 equals the decimal
 
 ----
 
-Configure Reporting
+Configure reporting
 -------------------
 
 Many times you will have an attribute for a given device that you are interested in receiving notifications about.
@@ -138,7 +138,7 @@ between reports is 10 minutes (600 seconds) and the maximum time between reports
 amount of change needed to trigger a report is 1 unit (0x01).
 
 
-Device Discovery
+Device discovery
 ----------------
 
 After a ZigBee device joins the network it must be queried in order to select
@@ -192,7 +192,7 @@ information to find the correct Device Handler for the device.
 
 ----
 
-Useful ZigBee References
+Useful ZigBee references
 ------------------------
 
 `ZigBee Cluster Library (ZCL) <http://www.zigbee.org/download/standards-zigbee-cluster-library/>`__

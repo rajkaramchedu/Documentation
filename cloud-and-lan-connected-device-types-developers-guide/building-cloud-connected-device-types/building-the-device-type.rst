@@ -1,11 +1,13 @@
 Building the Device Handler
 ===========================
 
-The device handler for a cloud connected device is generally the same as any other device handler. The means in which
-it handles sending and receiving messages from its device is a little bit different. Let's walk through a cloud connected
+The Device Handler for a cloud-connected device is generally the same as any other device handler. 
+The means in which
+it handles sending and receiving messages from its device is a little bit different. 
+Let's walk through a cloud connected
 device handler example.
 
-The Parse Method
+The Parse method
 ----------------
 
 The parse method for cloud connected devices will always be empty. In a
@@ -14,7 +16,7 @@ manager, not from the device itself, so the parsing is handled in a
 separate method. The Device Handler doesn't interface directly with
 a hardware device, which is what parse is used for.
 
-Sending Commands to the Third-Party Cloud
+Sending commands to the third-party cloud
 -----------------------------------------
 
 Usually the actual implementation of device methods are delegated to its service manager. This is because the service
@@ -38,7 +40,7 @@ the following.
       parent.on(this)
     }
 
-Receiving Events from the Third-Party Cloud
+Receiving Events from the third-party cloud
 -------------------------------------------
 
 The Device Handler continuously polls the third-party cloud through
@@ -86,7 +88,7 @@ In the service manager:
             }
     }
 
-Generating Events at the Request of the Service Manager
+Generating Events at the request of the Service Manager
 -------------------------------------------------------
 
 You won't generate events directly within the Service Manager, but

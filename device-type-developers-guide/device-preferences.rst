@@ -14,7 +14,7 @@ They will appear on the same page as the device name preference.
 
 ----
 
-Defining Preferences
+Defining preferences
 --------------------
 
 Device preferences should be placed in the Device Handler's ``metadata``.
@@ -33,7 +33,7 @@ They can appear anywhere in the ``metadata`` definition.
 
 ----
 
-Device Preferences are Flat
+Device preferences are flat
 ---------------------------
 
 *Device preferences are static, and single-page.*
@@ -49,7 +49,7 @@ Device Handler preferences are a simple list of inputs:
 
 ----
 
-Display on Setup
+Display on setup
 ----------------
 
 Use ``displayDuringSetup: true`` to force the preference input to be displayed when the device is being added to SmartThings:
@@ -65,7 +65,7 @@ Preferences that do not specify this value, or specify ``displayDuringSetup: fal
 
 ----
 
-Supported Input Types
+Supported input types
 ---------------------
 
 The following input types are supported in Device Handler preferences:
@@ -82,7 +82,7 @@ The following input types are supported in Device Handler preferences:
 
 ----
 
-Getting Preference Input Values
+Getting preference input values
 -------------------------------
 
 Just as with SmartApp preferences, the name of the preferences input is a reference to the preference value:
@@ -150,7 +150,7 @@ Example
     
 ----
 
-Additional Notes
+Additional notes
 ----------------
 
 - Setting a default value (``defaultValue: "foobar"``) for an input may render that selection in the mobile app, but the user still needs to enter data in that field. It's recommended to not use ``defaultValue`` to avoid confusion.

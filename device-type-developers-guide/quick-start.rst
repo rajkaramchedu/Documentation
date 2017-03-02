@@ -20,7 +20,7 @@ This section will walk you through creating your first custom Device Handler and
 
 .. _create-device-handler:
 
-Create a New Device Handler
+Create a new Device Handler
 ---------------------------
 
 From IDE click on the "My Device Handlers" link on the top menu.
@@ -117,7 +117,7 @@ You will see *virtual-dimmer-switch* device appear instantly in your SmartThings
 
 .. _test-virtual-device:
 
-Test Your Device Handler with Virtual Device
+Test your Device Handler with Virtual Device
 --------------------------------------------
 
 With the Virtual Dimmer you just created you can test your Device Handler. 
@@ -137,7 +137,7 @@ Next, tap on the *virtual-dimmer-switch* to open the detail view and test the ti
 
 ----
 
-Next Steps
+Next steps
 ----------
 
 Now that you have created and installed your first Device Handler with a Virtual Device, use the rest of this guide to learn more.

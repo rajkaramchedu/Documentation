@@ -316,7 +316,7 @@ It is a best practice, however, to list the clusters in ascending order.
 The device can have more clusters than the fingerprint specifies, and it will still pair.
 If one of the clusters specified in the fingerprint is incorrect, the device will *not* pair.
 
-Overly-general fingerprints
+Overly general fingerprints
 +++++++++++++++++++++++++++
 
 If you wish to publish or share a Device Handler, you must make sure that the fingerprints do not capture other devices

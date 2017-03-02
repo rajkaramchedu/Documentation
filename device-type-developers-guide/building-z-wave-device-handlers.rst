@@ -83,7 +83,7 @@ This example will use version 1 of SwitchMultilevel (0x26) and Configuration (0x
 
 ----
 
-Sending Commands
+Sending commands
 ----------------
 
 To send a Z-Wave command to the device, you must create the command object, call ``format()`` on it to convert it to the encoded string representation, and return it from the command method.

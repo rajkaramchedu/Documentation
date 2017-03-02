@@ -257,7 +257,7 @@ use the scheduler to do that from the Service Manager:
 
 ----
 
-Best Practices
+Best practices
 --------------
 
 For LAN Service Manager SmartApps, there are a couple items to keep in mind that might not be immediately apparent.
@@ -267,7 +267,7 @@ For LAN Service Manager SmartApps, there are a couple items to keep in mind that
 
 ----
 
-References and Resources
+References and resources
 ------------------------
 
 - `UPnP Device Architecture 1.1 <http://upnp.org/specs/arch/UPnP-arch-DeviceArchitecture-v1.1.pdf>`__

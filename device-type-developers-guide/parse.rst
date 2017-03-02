@@ -1,5 +1,5 @@
-Parse & Events
-==============
+Parse and Events
+================
 
 The ``parse`` method is the core method in a typical device handler.
 
@@ -101,7 +101,7 @@ You can return a list of event maps to tell the SmartThings platform to generate
         return [evt1, evt2]
     }
 
-Generating Events Outside of parse
+Generating Events outside of parse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you need to generate an event outside of the ``parse()`` method, you can use the ``sendEvent()`` method.

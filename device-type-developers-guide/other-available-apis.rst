@@ -16,7 +16,7 @@ You can learn about scheduling in the :ref:`smartapp-scheduling` guide.
 
 ----
 
-Storing Data
+Storing data
 ------------
 
 Device Handlers can persist small amounts of data across exections using ``state``, just as SmartApps.
@@ -26,7 +26,7 @@ You can learn about storing data in the :ref:`storing-data` guide.
 
 ----
 
-Making External HTTP Requests
+Making external HTTP requests
 -----------------------------
 
 Device Handlers can make HTTP requests to third party services, just like SmartApps.
