@@ -92,6 +92,21 @@ Use sentence case, as in “Subscription management,” and not the title case, 
 
 ----
 
+.. _ui_elements:
+
+UI elements
+-----------
+
+Always use italics emphasis when quoting a UI element label such as a button label or an icon label.
+
+**Example:** 
+
+    Go to the *Simulator* menu, and click on *Browse SmartApp Templates* in the dropdown list. 
+
+Here it is in reStructuredText:
+
+    Go to the \*Simulator* menu, and click on \*Browse SmartApp Templates* in the dropdown list.
+
 .. _page_structure:
 
 Page structure
