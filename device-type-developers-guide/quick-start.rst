@@ -23,7 +23,7 @@ This section will walk you through creating your first custom Device Handler and
 Create a new Device Handler
 ---------------------------
 
-From IDE click on the "My Device Handlers" link on the top menu.
+From IDE click on the *My Device Handlers* link on the top menu.
 Here you will see all your Device Handlers, if you have any.
 
 .. figure:: ../img/device-types/ide-device-types.png
@@ -35,10 +35,10 @@ Note the tabs at the top of the form, showing different options for creating a n
 
 .. figure:: ../img/device-types/new-device-type-form.png
 
-Select the "From Template" tab.
+Select the *From Template* tab.
 
 We are going to create a new Device Handler from the Dimmer Switch template.
-Click on the "Dimmer Switch" in the menu on the left.
+Click on the *Dimmer Switch* in the menu on the left.
 
 .. figure:: ../img/device-types/centralite-switch-from-template.png
 
@@ -54,7 +54,7 @@ Don't worry about the details yet - for now, just take note of the anatomy of th
 Next, make a few changes to this code to make it yours.
 In the definition method, change the ``name`` from "Dimmer Switch" to something like "My Dimmer Switch", the ``namespace`` to your github user account (or you can leave it blank), and the ``author`` to your name.
 
-Click the "Create" button below the editor, and then click "Publish" and "For Me" on the next screen.
+Click the *Create* button below the editor, and then click *Publish* and *For Me* on the next screen.
 
 .. figure:: ../img/device-types/device-handler-publish.png
 
@@ -107,7 +107,7 @@ Hub
 Group
   Not selectable.
 
-Click Create.
+Click *Create.*
 
 You will see *virtual-dimmer-switch* device appear instantly in your SmartThings mobile app, in the *Things* screen of the "My Home" view.
 
@@ -121,11 +121,11 @@ Test your Device Handler with Virtual Device
 --------------------------------------------
 
 With the Virtual Dimmer you just created you can test your Device Handler. 
-From your SmartThings mobile app, tap on the **OFF** tile of *virtual-dimmer-switch* to turn it **ON**.
+From your SmartThings mobile app, tap on the *OFF* tile of **virtual-dimmer-switch** to turn it *ON*.
 
 .. figure:: ../img/device-types/virtual-dimmer-on.png
 
-Next, tap on the *virtual-dimmer-switch* to open the detail view and test the tiles. 
+Next, tap on the **virtual-dimmer-switch** to open the detail view and test the tiles. 
 
 .. figure:: ../img/device-types/virtual-dimmer-detail.png
 

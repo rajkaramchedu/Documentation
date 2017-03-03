@@ -843,7 +843,7 @@ We do this by referencing the name of the related input.
 Custom Remove button
 --------------------
 
-By default, a "Remove" button is added to the bottom of a preferences page that specifies ``uninstall: true``.
+By default, a *Remove* button is added to the bottom of a preferences page that specifies ``uninstall: true``.
 This button can be customized by using the ``remove()`` method:
 
 .. code-block:: groovy
@@ -900,7 +900,7 @@ The use of ``remove()`` must follow these rules:
 - It can only be used inside a page.
 - It must only be used once per page.
 
-If these rules are not followed, exceptions are thrown and error messages are displayed when pressing "Save".
+If these rules are not followed, exceptions are thrown and error messages are displayed when pressing *Save*.
 
 ``remove()`` also sets the page ``uninstall`` to ``true``.
 

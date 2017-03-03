@@ -9,7 +9,7 @@ Overview
 --------
 
 On the right-hand side of the IDE, after you install a Device Handler, you'll see the simulator.
-The image below is the simulator seen after installing the "Z-Wave Switch" Device Handler (available via the "Browse Device Templates" menu).
+The image below is the simulator seen after installing the "Z-Wave Switch" Device Handler (available via the *Browse Device Templates* menu).
 
 Go ahead, try it out.
 Install the Device Handler in the IDE, and choose a virtual switch.

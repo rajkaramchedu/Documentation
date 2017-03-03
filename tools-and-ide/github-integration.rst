@@ -207,12 +207,12 @@ When you enable GitHub integration, you will see a few buttons added to the My S
 Commit Changes
 ''''''''''''''
 
-Clicking the Commit Changes button will first prompt you to select what repository you want to commit to, and then launch a wizard allows you to commit any new or modified code to your forked repository. You can (and should) also add a commit message as you would normally do when making commits in Git.
+Clicking the *Commit Changes* button will first prompt you to select what repository you want to commit to, and then launch a wizard allows you to commit any new or modified code to your forked repository. You can (and should) also add a commit message as you would normally do when making commits in Git.
 
 Update from Repo
 ''''''''''''''''
 
-Clicking the Update from Repo button will first prompt you to select what repository you’d like to update from, and then launch a wizard that allows you to update your IDE code from your forked repository.
+Clicking the *Update from Repo* button will first prompt you to select what repository you’d like to update from, and then launch a wizard that allows you to update your IDE code from your forked repository.
 
 The wizard will display three columns, each of which is described below:
 
@@ -249,11 +249,11 @@ Add files from repository to the IDE
 
 To add files from your forked SmartThingsPublic repository into the IDE, follow these steps:
 
-**Step 1 - Navigate to the *My SmartApps* or *My Device Handlers* page in the IDE**
+1. Step 1 - Navigate to the *My SmartApps* or *My Device Handlers* page in the IDE
 
 The files available to add to the IDE vary depending upon the context. If you want to add SmartApps to your IDE, navigate to the *My SmartApps* page. If you want to add Device Handlers, navigate to the *My Device Handlers*.
 
-**Step 2 - Update from Repo**
+2. Step 2 - Update from Repo
 
 Click the *Update from Repo* button (above the list of SmartApps or device handlers), and select the repo you want to update from.
 

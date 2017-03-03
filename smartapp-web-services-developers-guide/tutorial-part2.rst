@@ -142,7 +142,7 @@ Now, run the app on your local machine::
     ruby server.rb
 
 Visit `http://localhost:4567 <http://localhost:4567>`__.
-You should see a pretty boring web page with a link to "Connect with SmartThings".
+You should see a page with a link to "Connect with SmartThings".
 
 We're using the `OAuth2 module <https://github.com/intridea/oauth2>`__ to handle the OAuth2 flow.
 We create a new ``client`` object, using the ``client_id`` and ``client_secret``.
@@ -191,7 +191,7 @@ It should look something like this:
 
 .. figure:: ../img/smartapps/web-services/preferences.png
 
-Click the Authorize button, and you will be redirected back your server.
+Click the *Authorize* button, and you will be redirected back your server.
 
 You'll notice that we haven't implemented handling this URL yet, so we see "Not Implemented!".
 

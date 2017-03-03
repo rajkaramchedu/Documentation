@@ -41,7 +41,7 @@ If there is no match, validation will fail with the following error:
 
     error="invalid_grant", error_description="Invalid redirect: http://myserverhostname.com/oauth/callback does not match one of the registered values: [http://myserverhostname1.com/oauth/callback]"
 
-You can also set the Client Display Name and Client Display Link.
+You can also set the *Client Display Name* and *Client Display Link.*
 These will be used on the SmartThings Authorization page to inform the user who is requesting access to their devices.
 
 .. image:: ../img/smartapps/web-services/oauth-settings.png

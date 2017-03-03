@@ -106,7 +106,7 @@ Category
     SmartApps can be published either for Marketplace or for your own use.
     When publishing SmartApps for your own use (which is what we will be doing), all SmartApps will appear in *My Apps* category.
 
-Leave the rest of the fields as they are, and click the "Create" button at the bottom.
+Leave the rest of the fields as they are, and click the *Create* button at the bottom.
 This will create the SmartApp and populate it with some skeleton code.
 In the next section we will dive into using the editor to begin writing your first SmartApp.
 
@@ -469,10 +469,10 @@ Now we see the simulator section appear:
 
 We have two devices.
 A motion sensor, and a switch.
-We can manipulate the motion sensor by choosing "active" or "inactive" and clicking the play button.
-The same with the switch, it can be "on" or "off".
+We can manipulate the motion sensor by choosing *active* or *inactive* and clicking the play button.
+The same with the switch, it can be *on* or *off*.
 We wrote our SmartApp to turn the switch on when motion is detected, so let's give that a try.
-Choose "active" if it's not already selected and then hit the play button.
+Choose *active* if it's not already selected and then hit the play button.
 You should see the switch should go on:
 
 .. image:: ../img/getting-started/first-smartapp/ide-simulator-actuated.png

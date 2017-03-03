@@ -113,7 +113,7 @@ below:
 
 .. figure:: ../img/smartapps/web-services/preferences.png
 
-Finally, the user clicks on “Authorize” to complete both the authorization of the application and the installation of the SmartApp and the connection between the external system and the SmartThings Cloud is now complete.
+Finally, the user clicks on *Authorize* to complete both the authorization of the application and the installation of the SmartApp and the connection between the external system and the SmartThings Cloud is now complete.
 
 Once the user authorizes access, the external system is provided with the OAuth authorization code, which is in turn used to request and receive an OAuth access token.
 Once the external system has the token, it can access the web services provided by the SmartApp.

@@ -166,7 +166,7 @@ You can learn more about working with requests :ref:`here <webservices_smartapp_
 Self-publish the SmartApp
 -------------------------
 
-Publish the app for yourself, by clicking on the "Publish" button and selecting "For Me".
+Publish the app for yourself, by clicking on the *Publish* button and selecting *For Me*.
 
 ----
 

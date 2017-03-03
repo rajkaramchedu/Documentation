@@ -657,7 +657,7 @@ As the name suggests, Multi-Attribute Tiles can be associated with more than one
 
 The key difference between the Multi-Attribute Tile ``tileAttribute`` and the single-attribute ``state`` is the ``key`` option for ``attributeState``.
 The key informs the platform the type of control for the tile attribute, which is then used to render the appropriate control.
-The keys commonly used for each type of tile will be discussed below, and a complete reference list is :ref:`also available <control_ref>`
+The keys commonly used for each type of tile will be discussed below, and a complete reference list is :ref:`also available <control_ref>`.
 
 Every Multi-Attribute Tile must specify a ``PRIMARY_CONTROL``.
 This is the main control, and will control the background color for the entire Multi-Attribute Tile (except for the :ref:`therm_multi_attr_tile`).

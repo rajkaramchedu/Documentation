@@ -11,7 +11,7 @@ This is very useful for debugging purposes.
 Overview
 --------
 
-There is an instance of a logger (``log``) injected into each SmartApp/Device Handler available for your use.
+There is an instance of a logger (``log``) injected into each SmartApp and Device Handler available for your use.
 SmartThings does not currently support a line-by-line, step-through debugger tool; instead, we use logging to debug our custom code.
 To view the logs, organized by app, click on the *Live Logging* link at the top of the IDE.
 

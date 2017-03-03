@@ -142,15 +142,15 @@ ZigBee utilities
 In order to work with ZigBee you will need to use the ZigBee Cluster Library extensively to look up the proper values to send back and forth to your device.
 You can download this document `here <http://www.zigbee.org/download/standards-zigbee-cluster-library/>`__.
 
-There is also a ZigBee utility class covered in the :ref:`zigbee_ref`
+There is also a ZigBee utility class covered in the :ref:`zigbee_ref`.
 
 ----
 
 Best practices
 --------------
 
-- The use of 'raw ...' commands is deprecated. Instead use the documented methods on the zigbee library. If you need to do something that requires the use of a 'raw' command let us know and we will look at adding it to the zigbee library.
-- Do not use sendEvent() in command methods. Sending events should be handled in the parse method.
+- The use of 'raw ...' commands is deprecated. Instead use the documented methods on the ZigBee library. If you need to do something that requires the use of a 'raw' command let us know and we will look at adding it to the ZigBee library.
+- Do not use ``sendEvent()`` in command methods. Sending events should be handled in the ``parse`` method.
 
 ----
 
@@ -183,7 +183,7 @@ Use it if
 How to use
 ^^^^^^^^^^
 
-Simply fill out the required fields in the form with the information for the device, and click Create.
+Simply fill out the required fields in the form with the information for the device, and click *Create.*
 
 You will then see the updated Device Handler code in the IDE editor.
 You can then test that your device pairs with SmartThings and functions as expected, and then make an update as a Publication Request.
