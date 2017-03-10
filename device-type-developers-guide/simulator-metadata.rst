@@ -15,7 +15,7 @@ Go ahead, try it out.
 Install the Device Handler in the IDE, and choose a virtual switch.
 Modify some of the Simulator metadata as you read through this and see what happens.
 
-.. figure:: ../img/device-types/Simulator.png
+.. figure:: ../img/device-types/simulator.png
 
 
 The purpose of the Simulator metadata is to model the behavior of the physical device.

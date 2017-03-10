@@ -475,7 +475,7 @@ We wrote our SmartApp to turn the switch on when motion is detected, so let's gi
 Choose *active* if it's not already selected and then hit the play button.
 You should see the switch should go on:
 
-.. image:: ../img/getting-started/first-smartapp/ide-Simulator-actuated.png
+.. image:: ../img/getting-started/first-smartapp/ide-simulator-actuated.png
    :width: 35%
 
 .. warning::

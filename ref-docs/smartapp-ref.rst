@@ -1855,7 +1855,7 @@ Sends a command to the Hub, with the details of the command encapsulated within 
 sendLocationEvent()
 -------------------
 
-Sends a LOCATION Event constructed from the specified properties. See the :ref:`event_ref` reference for a list of available properties. Other SmartApps can receive Location Events by subscribing to the Location. Examples of exissting Location Events include sunrise and sunset.
+Sends a LOCATION Event constructed from the specified properties. See the :ref:`event_ref` reference for a list of available properties. Other SmartApps can receive Location Events by subscribing to the Location. Examples of existing Location Events include sunrise and sunset.
 
 **Signature:**
     ``void sendLocationEvent(Map properties)``
