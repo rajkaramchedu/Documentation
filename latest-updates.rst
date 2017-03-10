@@ -210,7 +210,7 @@ October 05 2016
 - Updated the repository's README with pull request guidelines.
 - Added scheduling APIs to the :ref:`device_handler_ref` reference documentation (including all ``runEvery*`` APIs, which are now supported in Device Handlers).
 - Fixed broken cron tutorial link the :ref:`smartapp-scheduling` guide.
-- Added note to the :ref:`first SmartApp tutorial <first-smartapp-tutorial>` and :ref:`editor_and_simulator` that the simulator is inconsistent with the mobile application.
+- Added note to the :ref:`first SmartApp tutorial <first-smartapp-tutorial>` and :ref:`editor_and_simulator` that the Simulator is inconsistent with the mobile application.
 
 ----
 
@@ -351,7 +351,7 @@ July 07 2016
 - Added documentation for working with collections in :ref:`State <state_collections>` and :ref:`Atomic State <atomic_state_collections>`.
 - Added documentation for :doc:`ref-docs/app-state-ref`
 - Added documentation for :doc:`ref-docs/installed-smart-app-wrapper-ref`
-- Added :ref:`clarification <run_api_smartapp_simulator>` that the callable URL for Web Services SmartApps will vary by installed location
+- Added :ref:`clarification <run_api_smartapp_simulator>` that the callable URL for Web Services SmartApps will vary by installed Location
 - Updated :ref:`developer_discussions` with the new developer call schedule
 
 ----

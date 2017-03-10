@@ -89,7 +89,7 @@ The IDE simulation environment also allows you to run the simulator
 attached to any of the “Locations” defined within your account.
 
 When editing a SmartApp or Device Handler, you can see the simulator on the right of the page.
-You can choose a location and click the *Set Location* button, and then input any preferences required by the SmartApp or Device Handler.
+You can choose a Location and click the *Set Location* button, and then input any preferences required by the SmartApp or Device Handler.
 Click the *Install* button to run the simulator.
 
 When simulating a SmartApp, any selected devices will appear in the IDE, along with controls to actuate the devices:

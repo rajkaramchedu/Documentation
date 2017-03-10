@@ -143,8 +143,8 @@ Device discovery
 
 After a ZigBee device joins the network it must be queried in order to select
 the correct Device Handler. After a device joins (or rejoins) the network
-the hub will collect the simple descriptor, manufacturer, model and application
-version for each endpoint without any interaction with the cloud. The hub will
+the Hub will collect the simple descriptor, manufacturer, model and application
+version for each endpoint without any interaction with the cloud. The Hub will
 automatically resend any messages that the device does not respond to in a
 timely manner. Once all the information has been obtained it is sent to the
 cloud in the `zbjoin` message. This message is visible in Hub Events.

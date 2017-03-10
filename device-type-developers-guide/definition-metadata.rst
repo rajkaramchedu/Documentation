@@ -121,7 +121,7 @@ To define a custom command for your Device Handler, call the ``command()`` metho
 Fingerprinting
 --------------
 
-When a ZigBee or Z-Wave device is added to the SmartThings hub, we need a way to determine which device type to assign it.
+When a ZigBee or Z-Wave device is added to the SmartThings Hub, we need a way to determine which device type to assign it.
 This process is known as a "join" process, or "fingerprinting".
 
 Device Handlers define "fingerprints" to specify which devices or what kinds of devices they support.

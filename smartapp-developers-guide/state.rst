@@ -3,7 +3,7 @@
 Storing Data With State
 =======================
 
-SmartApps and Device Handlers execute in response to various events or schedules; they are not continuously running.
+SmartApps and Device Handlers execute in response to various Events or schedules; they are not continuously running.
 Since each execution is executed independently, it has no information regarding previous executions.
 This is often adequate for most SmartApps or Device Handlers, but sometimes, they need to remember information across executions.
 

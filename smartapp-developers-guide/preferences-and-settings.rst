@@ -723,7 +723,7 @@ Device Preference Input       Device Name Searched For
 ``"device.myOnOffDevice"``    ``"My On/Off Device"``
 ============================= ========================
 
-When using ``device.<name>`` inputs, the platform first looks up which Device Handler it is, then finds any devices of that type for that location.
+When using ``device.<name>`` inputs, the platform first looks up which Device Handler it is, then finds any devices of that type for that Location.
 The algorithm searches for a Device Handler in the following order:
 
 #. A Device Handler published by SmartThings that matches the name.
@@ -762,7 +762,7 @@ For example, if you have an input that prompts the user for an audio device, but
 Let's take a look at a few examples.
 
 Add the ``hideWhenEmpty`` attribute to SmartApp inputs to completely hide UI control if there are no devices available.
-In this example, the SmartApp will not display the valve input if there were no valves in this user's location, but would display the switch input even if there were no switches.
+In this example, the SmartApp will not display the valve input if there were no valves in this user's Location, but would display the switch input even if there were no switches.
 
 .. code-block:: groovy
 
@@ -809,9 +809,9 @@ However, if both switch and valve devices are entirely absent, then the section 
     }
 
 It is worth noting that in the last example, the audio input does not have the usual ``required: false`` attribute.
-This is because the input will not be displayed if there are no audio devices associated to this location.
+This is because the input will not be displayed if there are no audio devices associated to this Location.
 However, the SmartApp would have to be able to handle a ``null`` value for that input.
-Also, it is worth remembering that if the user does have an audio device in this location, the default value of ``required: true`` will be applicable.
+Also, it is worth remembering that if the user does have an audio device in this Location, the default value of ``required: true`` will be applicable.
 
 Working with other input types
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1015,7 +1015,7 @@ Next, with the ``submitOnChange`` input attribute you can also have dynamic beha
 dynamicPage() options
 ^^^^^^^^^^^^^^^^^^^^^
 
-Any valid option for ``page()`` will work for ``dynamicPage()`` also. 
+Any valid option for ``page()`` will work for ``dynamicPage()`` also.
 In addition, the ``refreshInterval`` input option is specific to ``dynamicPage()`` method:
 
 .. code-block:: groovy
@@ -1025,7 +1025,7 @@ In addition, the ``refreshInterval`` input option is specific to ``dynamicPage()
         page(name: "page1")
         page(name: "page3")
     }
-    
+
     ...
 
     def page1() {
@@ -1033,8 +1033,8 @@ In addition, the ``refreshInterval`` input option is specific to ``dynamicPage()
     }
 
 *refreshInterval*
-    Integer - refreshes the specific page of the SmartApp on the mobile device for the integer number of seconds. 
-    In the above example, it refreshes the *page1* every 5 seconds. 
+    Integer - refreshes the specific page of the SmartApp on the mobile device for the integer number of seconds.
+    In the above example, it refreshes the *page1* every 5 seconds.
 
 
 ----

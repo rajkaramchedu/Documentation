@@ -286,7 +286,7 @@ Here's an example of using the state name as the label:
         state "on", label:'${name}', action:"switch.off", icon:"st.switches.switch.on", backgroundColor:"#79b821"
     }
 
-When using the current attribute value, the attribute value must be set by sending an event.
+When using the current attribute value, the attribute value must be set by sending an Event.
 For simplicity, the code examples in this documentation typically will not show the attribute value being set.
 Just know that if a label is set like this:
 
@@ -297,7 +297,7 @@ Just know that if a label is set like this:
         state "power", label: '${currentValue} W'
     }
 
-The Device Handler needs to send an event for the ``"power"`` attribute somewhere:
+The Device Handler needs to send an Event for the ``"power"`` attribute somewhere:
 
 .. code-block:: groovy
 
@@ -818,7 +818,7 @@ In order to provide the relevant data to present the label, there are four addit
 Value                 Description                                   Notes
 ====================  ============================================  ================================================================================================================
 ``OPERATING_STATE``   What the thermostat is doing                  The label will not show if ``OPERATING_STATE`` is omitted, as this is the baseline amount of meaningful information
-``THERMOSTAT_MODE``   Thermostat mode (i.e. Heat, Cool, or Auto)    This allows the user to know the mode (and temperature) if the system is idle (e.g. "Idle—Heat at 66°")
+``THERMOSTAT_MODE``   Thermostat Mode (i.e. Heat, Cool, or Auto)    This allows the user to know the Mode (and temperature) if the system is idle (e.g. "Idle—Heat at 66°")
 ``HEATING_SETPOINT``  At which point the system will begin heating  Informs the user when heating will start (or stop, if currently heating)
 ``COOLING_SETPOINT``  At which point the system will begin cooling  Informs the user when cooling will start (or stop, if currently cooling)
 ====================  ============================================  ================================================================================================================

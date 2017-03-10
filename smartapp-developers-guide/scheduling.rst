@@ -21,7 +21,7 @@ Broadly speaking, there are a few different ways we might want to schedule somet
 We'll look at each scenario in detail, and at the methods SmartThings makes available to address these requirements.
 
 .. note::
-    When using the scheduler APIs, the schedule will be created using the time zone of the SmartApp's location.
+    When using the scheduler APIs, the schedule will be created using the time zone of the SmartApp's Location.
 
 ----
 
