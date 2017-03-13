@@ -27,7 +27,7 @@ Create a new SmartApp
 Create a new SmartApp in the IDE. Fill in the required fields, and make sure to click on *Enable OAuth in SmartApp* to receive an auto-generated client ID and secret.
 
 Make sure to specify the redirect URI as this will be used to validate the authorization code request.
-For the purposes of this tutorial, simply type in ``http://localhost:4567/oauth/callback``
+For the purposes of this tutorial, simply type in ``http://localhost:4567/oauth/callback``.
 
 Note the Client ID and secret - they'll be used later (should you forget, you can get them by viewing the "App Settings" in the IDE).
 

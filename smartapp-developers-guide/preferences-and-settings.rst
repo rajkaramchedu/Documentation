@@ -109,7 +109,7 @@ The valid options are:
 *name* (required)
     String - Identifier for this page.
 *title*
-    String - The display title of this page
+    String - The display title of this page.
 *nextPage*
     String - Used on multi-page preferences only. Should be the name of the page to navigate to next.
 *install*
@@ -309,9 +309,9 @@ The above ``preferences`` definition would render the mobile app UI as:
 Valid options are:
 
 *title*
-    String - The title of the paragraph
+    String - The title of the paragraph.
 *image*
-    String - URL of image to use, if desired
+    String - URL of image to use, if desired.
 *required*
     Boolean - ``true`` or ``false`` to specify this input is required. Defaults to ``false``.
 
@@ -347,7 +347,7 @@ Tapping the *icon* UI element would then allow the user to choose an icon:
 Valid options are:
 
 *title*
-    String - The title of the icon
+    String - The title of the icon.
 *required*
     Boolean - ``true`` or ``false`` to specify this input is required. Defaults to ``false``.
 
@@ -452,13 +452,13 @@ You can use the params option to pass data to dynamic pages:
 Valid options are:
 
 *title*
-    String - the title of the element
+    String - the title of the element.
 *required*
     Boolean - ``true`` or ``false`` to specify this input is required. Defaults to ``false``.
 *description*
     String - the secondary text of the element
 *external* (**deprecated - use style instead**)
-    Boolean - ``true`` to open URL in mobile browser application, ``false`` to open URL within the SmartThings app. Defaults to ``false``
+    Boolean - ``true`` to open URL in mobile browser application, ``false`` to open URL within the SmartThings app. Defaults to ``false``.
 *style*
     String - Controls how the link will be handled. Specify "external" to launch the link in the mobile device's browser. Specify "embedded" to launch the link within the SmartThings mobile application. Specify "page" to indicate this is a preferences page.
 
@@ -466,7 +466,7 @@ Valid options are:
 
     Currently, Android does not support the "external" style option.
 *url*
-    String - The URL of the page to visit. You can use query parameters to pass additional information to the URL (For example, \http://someurl.com?param1=value1&param2=value1\)
+    String - The URL of the page to visit. You can use query parameters to pass additional information to the URL (for example, \http://someurl.com?param1=value1&param2=value1\).
 *params*
     Map - Use this to pass parameters to other preference pages. If doing this, make sure your page definition method accepts a single parameter (that will be this params map). See the page-params-by-href example at the end of this document for more information.
 *page*
@@ -515,7 +515,7 @@ The second page of the above example would render in the mobile UI as:
 Valid options are:
 
 *title*
-    String - the title of the mode field
+    String - the title of the mode field.
 *required*
     Boolean - ``true`` or ``false`` to specify this input is required. Defaults to ``false``.
 *multiple*
@@ -584,13 +584,13 @@ The above preferences definition would render in the mobile UI as:
 Valid options are:
 
 *title*
-    String - the title of the label field
+    String - the title of the label field.
 *description*
-    String - the text in the input field
+    String - the text in the input field.
 *required*
     Boolean - ``true`` or ``false`` to specify this input is required. Defaults to ``false``. Defaults to ``true``.
 *image*
-    String - URL to an image to use, if desired
+    String - URL to an image to use, if desired.
 
 app
 ^^^
@@ -635,11 +635,11 @@ Valid input options are:
 *defaultValue*
     Object - if specified, a default value for this input.
 *name*
-    String - name of variable that will be created in this SmartApp to reference this input
+    String - name of variable that will be created in this SmartApp to reference this input.
 *title*
     String - title text of this element.
 *description*
-    String - default value of the input element
+    String - default value of the input element.
 *multiple*
     Boolean - ``true`` or ``false`` to specify this input allows selection of multiple devices of the input type (if you have more than one). Defaults to ``true``.
     For example, in the motion sensor example above, setting this to ``true`` will allow you to select more than one motion sensor, provided you have more than one.
@@ -651,7 +651,7 @@ Valid input options are:
     Boolean - ``true`` to force a page refresh after input selection or ``false`` to not refresh the page. This is useful
     when creating a dynamic input page.
 *options*
-    List - used in conjunction with the enum input type to specify the values the user can choose from. Example: ``options: ["choice 1", "choice 2", "choice 3"]``
+    List - used in conjunction with the enum input type to specify the values the user can choose from. Example: ``options: ["choice 1", "choice 2", "choice 3"]``.
 *type*
     String - one of the names from the following table:
 
@@ -691,10 +691,10 @@ For example, if your SmartApp specifically requires a device named "My Fancy Dev
 
 The format of the device name is determined by the following algorithm:
 
-#. Remove ``"device."`` prefix (``"device.myFancyDevice"`` -> ``"myFancyDevice"``)
-#. Capitalize the result (``"myFancyDevice"`` -> ``"MyFancyDevice"``)
-#. Split the result by camel case (``"MyFancyDevice"`` -> ``["My", "Fancy", "Device"]``)
-#. Join result with a space (``["My", "Fancy", "Device"]`` -> ``"My Fancy Device"``)
+#. Remove ``"device."`` prefix (``"device.myFancyDevice"`` -> ``"myFancyDevice"``).
+#. Capitalize the result (``"myFancyDevice"`` -> ``"MyFancyDevice"``).
+#. Split the result by camel case (``"MyFancyDevice"`` -> ``["My", "Fancy", "Device"]``).
+#. Join result with a space (``["My", "Fancy", "Device"]`` -> ``"My Fancy Device"``).
 #. Replace occurrences of any of these strings in the result with the following, as shown:
 
 ============================  =============

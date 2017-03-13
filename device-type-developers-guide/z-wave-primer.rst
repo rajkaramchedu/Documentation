@@ -100,7 +100,7 @@ Association
 
 The `Association <https://graph.api.smartthings.com/ide/doc/zwave-utils.html#associationV2>`__ command class is used to tell a Z-Wave device that it should send updates to another device.
 It provides the ability to add associated devices to different numbered groups that can have different meanings.
-This functionality is used in a few different ways, often detailed in the device's manual or technical documentation.
+This functionality is used in a few different ways, often detailed in the device's manual or technical documentation:
 
 -  Some sensors will send reports of the events they detect only to
    devices that have been added to a specific association group.

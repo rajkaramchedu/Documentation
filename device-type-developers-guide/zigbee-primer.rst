@@ -24,10 +24,10 @@ Report battery level every 10 minutes to 6 hours if it changes value by 1
 
 The 4 Main types of ZigBee Messages
 
--  zigbee.command - A ZigBee command for a given cluster
--  zigbee.readAttribute - A ZigBee Read Attribute requesting the value of an attribute from a cluster
--  zigbee.writeAttribute - A ZigBee Write Attribute writing a value to the attribute of a cluster
--  zigbee.configureReporting - A ZigBee Configure Report that configures a cluster attribute to report changes of a given amount within a certain time period
+-  zigbee.command - A ZigBee command for a given cluster.
+-  zigbee.readAttribute - A ZigBee Read Attribute requesting the value of an attribute from a cluster.
+-  zigbee.writeAttribute - A ZigBee Write Attribute writing a value to the attribute of a cluster.
+-  zigbee.configureReporting - A ZigBee Configure Report that configures a cluster attribute to report changes of a given amount within a certain time period.
 
 ----
 

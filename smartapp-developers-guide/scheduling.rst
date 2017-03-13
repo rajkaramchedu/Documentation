@@ -262,7 +262,7 @@ Day of Week  1-7 or SUN-SAT   Yes      , - * ? / L
 Year         empty, 1970-2099 No       , - * /
 ============ ================ ======== =================
 
-**Allowed wildcards**
+**Allowed wildcards are:**
 
     - ``,`` (comma) is used to specify additional values. For example, SAT,SUN,MON in the Day of Week field means “the days Saturday, Sunday, and Monday.”
     - ``-`` (hyphen) is used to specify ranges. For example, ``5-7`` in the Hours field means “the hours 5, 6 and 7”.

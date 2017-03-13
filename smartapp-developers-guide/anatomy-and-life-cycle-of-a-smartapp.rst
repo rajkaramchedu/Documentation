@@ -81,10 +81,10 @@ Pre-defined callbacks
 
 The following methods, if present, are automatically called at various times during the lifecycle of a SmartApp:
 
-#. ``installed()`` - Called when a SmartApp is first installed
-#. ``updated()`` - Called when the preferences of an installed smart app are updated
+#. ``installed()`` - Called when a SmartApp is first installed.
+#. ``updated()`` - Called when the preferences of an installed smart app are updated.
 #. ``uninstalled()`` - Called when a SmartApp is uninstalled.
-#. ``childUninstalled()`` - Called for the parent app when a child app is uninstalled (a SmartApp can have child SmartApps)
+#. ``childUninstalled()`` - Called for the parent app when a child app is uninstalled (a SmartApp can have child SmartApps).
 
 The ``installed()`` and ``updated()`` methods are commonly found in all apps.
 Since the selected devices may have changed when an app is updated, both of these methods typically set up the same Event subscriptions, so it is common practice to put those calls in an ``initialize()`` method and call it from both the installed and updated methods.
@@ -112,11 +112,10 @@ SmartApps execute when any of the following types of Events occur:
 2. **Device state change** - An attribute changes on a device, which
    creates an Event, which triggers a subscription, which calls a
    handler method within your SmartApp.
-3. **Location state change** - A Location attribute such as *Mode* changes. *Sunrise* and *sunset*
-   are other examples of Location Events
-4. **User action on the app** - The user taps a SmartApp icon or shortcut in the mobile app UI
-5. **Scheduled Event** - Using a method like runIn(), you call
-   a method within your SmartApp at a particular time .
+3. **Location state change** - A location attribute such as *Mode* changes. *Sunrise* and *sunset* are other examples of location events.
+4. **User action on the app** - The user taps a SmartApp icon or shortcut in the mobile app UI.
+5. **Scheduled event** - Using a method like runIn(), you call
+   a method within your SmartApp at a particular time.
 6. **Web services call** Using our `web services
    API <../smartapp-web-services-developers-guide/overview.html>`__, you
    create an endpoint accessible over the web that calls a method within

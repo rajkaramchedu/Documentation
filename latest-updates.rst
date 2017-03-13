@@ -351,8 +351,8 @@ July 07 2016
 - Added documentation for working with collections in :ref:`State <state_collections>` and :ref:`Atomic State <atomic_state_collections>`.
 - Added documentation for :doc:`ref-docs/app-state-ref`
 - Added documentation for :doc:`ref-docs/installed-smart-app-wrapper-ref`
-- Added :ref:`clarification <run_api_smartapp_simulator>` that the callable URL for Web Services SmartApps will vary by installed Location
-- Updated :ref:`developer_discussions` with the new developer call schedule
+- Added :ref:`clarification <run_api_smartapp_simulator>` that the callable URL for Web Services SmartApps will vary by installed location
+- Updated developer call schedule
 
 ----
 

@@ -887,7 +887,7 @@ The ``tileAttribute`` control keys and their description used for the Multimedia
 ===================  ===========
 Key                  Description
 ===================  ===========
-``PRIMARY_CONTROL``  Necessary to render the background of the tile.
+``PRIMARY_CONTROL``  Necessary to render the background of the tile
 ``MEDIA_STATUS``     Used to display and control the current play status (playing, paused, stopped)
 ``PREVIOUS_TRACK``   Renders a control for going to the previous track
 ``NEXT_TRACK``       Renders a control for going to the next track

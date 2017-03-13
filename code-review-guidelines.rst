@@ -18,7 +18,7 @@ Code should be readable
 Code is executed by machines, but read by humans.
 Readability can be subjective, but there are some general guidelines that should be followed:
 
-- Use meaningful variable and method names
+- Use meaningful variable and method names.
 - :ref:`review_guidelines_dry`
 - :ref:`review_guidelines_methods`
 - :ref:`review_guidelines_comments`
@@ -64,10 +64,10 @@ When over-used, they clutter the code and provide no value.
 
 There are some guidelines that should be followed:
 
-- In general, when the code is doing something out of the ordinary, a comment is appropriate
-- Device Handler custom commands and attributes should have a comment describing the purpose, parameters, and exception conditions (if applicable)
+- In general, when the code is doing something out of the ordinary, a comment is appropriate.
+- Device Handler custom commands and attributes should have a comment describing the purpose, parameters, and exception conditions (if applicable).
 - Non-trivial methods should be documented with comments describing what it does, its return type, exception conditions, and parameters. `JavaDoc style comments <https://en.wikipedia.org/wiki/Javadoc#Overview_of_Javadoc>`__ can be used, though there is no tooling in place to generate documentation from the source.
-- Comments should add value - commenting every line of readable code simply clutters the code and is unnecessary
+- Comments should add value - commenting every line of readable code simply clutters the code and is unnecessary.
 
 Here's an example of using comments appropriately for documenting a method:
 
@@ -252,9 +252,9 @@ Groovy truth is documented `here <http://groovy-lang.org/semantics.html#Groovy-T
 
 Here are some gotchas to be aware of:
 
-- Empty strings are considered ``false``; non-empty strings are considered ``true``
-- Empty maps and lists are considered ``false``; non-empty maps and lists are considered ``true``
-- Zero is considered ``false``; non-zero numbers are considered ``true``
+- Empty strings are considered ``false``; non-empty strings are considered ``true``.
+- Empty maps and lists are considered ``false``; non-empty maps and lists are considered ``true``.
+- Zero is considered ``false``; non-zero numbers are considered ``true``.
 
 Consider the following example that verifies that a number is between 0 and 100:
 

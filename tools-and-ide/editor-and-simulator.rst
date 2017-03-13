@@ -80,7 +80,7 @@ The simulator allows you to test your SmartApps or Device Handlers within the ID
 When you run your application in the IDE, it is always running in the simulation framework.
 The IDE simulator does two very important things to support simulation:
 
--  It acts as a “Virtual Hub” that has virtual devices connected to it
+-  It acts as a “Virtual Hub” that has virtual devices connected to it.
 -  It acts as if it was the SmartThings Mobile application to receive
    and process status updates and support direct user actions on devices
    through a simulated mobile app control.

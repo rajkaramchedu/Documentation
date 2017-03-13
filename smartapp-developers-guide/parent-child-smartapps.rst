@@ -52,7 +52,7 @@ Option    Description
 name      The name of the input. Serves as the identifier for this input element.
 appName   The name of the child SmartApp, as defined in the definition metadata of the child.
 namespace The namespace of the child SmartApp, as defined in the definition metadata of the child.
-title     The title of the button the user can press to install a new instance of this child SmartApp
+title     The title of the button the user can press to install a new instance of this child SmartApp.
 multiple  If ``true``, the user can install multiple child SmartApps. If ``false``, only one may be installed. Defaults to ``false``.
 ========= ===========
 
