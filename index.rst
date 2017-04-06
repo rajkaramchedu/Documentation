@@ -105,6 +105,7 @@ SmartThings Developer Documentation
    arduino/index
    ratelimits/index
    publishing/index
+   device-health/index
    code-review-guidelines
 
 .. toctree::

@@ -1502,6 +1502,8 @@ Creates a scheduled job that calls the ``handlerMethod`` once per day at the tim
 
 ----
 
+.. _device_handler_ref_sendevent:
+
 sendEvent()
 -----------
 
