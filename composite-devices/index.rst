@@ -144,8 +144,8 @@ Composite Device Tiles
 A composite device can be visually represented on SmartThings mobile app by using the method :ref:`childDeviceTile_DH_ref`.
 The example below illustrates how to put together a mobile visual interface on SmartThings mobile app for a simulated refrigerator composite device.
 
-Simulated refrigerator
-^^^^^^^^^^^^^^^^^^^^^^
+Example: Simulated refrigerator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The simulated refrigerator in this example is a composite device with two components (child devices):
 
@@ -155,23 +155,10 @@ The simulated refrigerator in this example is a composite device with two compon
 Each compartment has its own door, its own temperature, and its own temperature setpoint. 
 Each compartment is modeled as a child device of the main refrigerator device.
 
-Copy the following three composite device Device Handler files and create your own three Device Handlers with *From Code* option (see :ref:`create-device-handler`): 
-
-- Parent Device Handler file for the `Simulated Refrigerator <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator.src/simulated-refrigerator.groovy>`_ composite parent device.
-- Child Device Handler file for the `Simulated Refrigerator Door <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator-door.src/simulated-refrigerator-door.groovy>`_ component device, and 
-- Child Device Handler for the `Simulated Refrigerator Temperature Control <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator-temperature-control.src/simulated-refrigerator-temperature-control.groovy>`_ component device.
-
-.. note::
-	
-	Make sure to publish *For Me* the above three Device Handlers before you proceed further.
-
-Next, create a *New Device* (see :ref:`create-virtual-device`) and set it to *Type* "Simulated Refrigerator". 
+From IDE, create a *New Device* (see :ref:`create-virtual-device`) and set it to *Type* "Simulated Refrigerator". 
 This will create the composite parent device *Simulated Refrigerator.*
 You will see it appear in the *Things* view of your SmartThings mobile app.
 Tap on it to see the *Detail* view of it. 
-
-Composite tile for the simulated refrigerator
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The mobile app view of the Simulated Refrigerator composite device, with the detail view on the right, looks as below:
 
@@ -188,7 +175,7 @@ The mobile app view of the Simulated Refrigerator composite device, with the det
 
 The composite device tile for the refrigerator door, shown in the top row of the detail view above, is put together as below:
 
-- In the child Device Handler for the Simulated Refrigerator Door, define the tile ``mainDoor`` in the ``tiles()`` section. The ``width`` and ``height`` parameters defined here will be overridden by the parent Device Handler setting.
+- In the child Device Handler for the Simulated Refrigerator Door, the tile ``mainDoor`` is defined in the ``tiles()`` section. The ``width`` and ``height`` parameters defined here will be overridden by the parent Device Handler setting.
 
 .. code-block:: groovy
 	
@@ -207,7 +194,7 @@ The composite device tile for the refrigerator door, shown in the top row of the
 	    }
 	}
 
-- In the Simulated Refrigerator parent Device Handler, use the method :ref:`childDeviceTile_DH_ref` in the ``tiles()`` section to visually configure this child device ``mainDoor`` tile. The ``width`` and ``height`` settings here will override the settings for this tile in the child Device Handler. 
+- In the Simulated Refrigerator parent Device Handler, the method :ref:`childDeviceTile_DH_ref` is used in the ``tiles()`` section to visually configure this child device ``mainDoor`` tile. The ``width`` and ``height`` settings here will override the settings for this tile in the child Device Handler. 
 
 .. code-block:: groovy
     
@@ -235,8 +222,24 @@ The composite device tile for the refrigerator door, shown in the top row of the
 
 ----
 
+.. note::
+	
+	While the ``width`` and ``height`` parameters in the ``childDeviceTile()`` in the parent Device Handler will override the settings of these parameters in the child Device Handler, any ``icon`` setting specified in the child Device Handler will *not* be overriden by the ``childDeviceTile()``.
+
+----
+
+Example composite tile code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Copy the following three composite device Device Handler files and create your own three Device Handlers with *From Code* option (see :ref:`create-device-handler`): 
+
+- Parent Device Handler file for the `Simulated Refrigerator <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator.src/simulated-refrigerator.groovy>`_ composite parent device.
+- Child Device Handler file for the `Simulated Refrigerator Door <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator-door.src/simulated-refrigerator-door.groovy>`_ component device, and 
+- Child Device Handler for the `Simulated Refrigerator Temperature Control <https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-refrigerator-temperature-control.src/simulated-refrigerator-temperature-control.groovy>`_ component device.
+
+.. note::
+	
+	Make sure to publish *For Me* the above three Device Handlers before you proceed further.
+
+
 Follow the code in the Device Handlers you copied over to see how the rest of the visual layout is configured for the entire Simulated Refrigerator composite device.
-
-
-
-
