@@ -141,7 +141,27 @@ If you try to delete a composite device from your SmartThings mobile app, then t
 Composite Device Tiles
 ----------------------
 
-A composite device can be visually represented on SmartThings mobile app by using the method :ref:`childDeviceTile_DH_ref`.
+Child device tiles can be visually pulled together into a composite tile.
+On SmartThings mobile app, such a composite tile represents a rich interface for the display and control of a composite device.
+
+For example, consider a refrigerator composite device that is built with two child components, i.e., the fridge door and the temperature control. 
+Then, by using the method :ref:`childDeviceTile_DH_ref` within the parent refrigerator Device Handler, we can define how the individual child device tiles are arranged visually. 
+See example below:
+
+.. code-block:: groovy
+    
+    metadata {
+        definition (name: "Simulated Refrigerator", namespace: "smartthings/testing", author: "SmartThings") {
+            capability "Contact Sensor"
+        }
+    	tiles {
+         childDeviceTile("mainDoor", "mainDoor", height: 2, width: 2, childTileName: "mainDoor")
+        }
+    ...
+
+    }
+
+
 The example below illustrates how to put together a mobile visual interface on SmartThings mobile app for a simulated refrigerator composite device.
 
 Example: Simulated refrigerator
