@@ -145,11 +145,35 @@ Child device tiles can be visually pulled together into a composite tile.
 On SmartThings mobile app, such a composite tile represents a rich interface for the display and control of a composite device.
 
 For example, consider a refrigerator composite device that is built with two child components, i.e., the fridge door and the temperature control. 
-Then, by using the method :ref:`childDeviceTile_DH_ref` within the parent refrigerator Device Handler, we can define how the individual child device tiles are arranged visually. 
-See example below:
+
+In the fridge door child Device Handler, the tile for the fridge door ``mainDoor`` is defined normally with the ``standardTile`` method, as below:
 
 .. code-block:: groovy
-    
+
+    // Fridge door child component Device Handler
+    metadata {
+        definition (name: "Simulated Refrigerator Door", namespace: "smartthings/testing", author: "SmartThings") {
+            capability "Contact Sensor"
+            capability "Sensor"
+            capability "open"
+            capability "close"
+        }
+    	tiles {
+         standardTile("mainDoor", "device.contact", width: 2, height: 2, decoration: "flat") {
+         state("closed", label:'Fridge', icon:"st.contact.contact.closed", backgroundColor:"#79b821")
+         state("open", label:'Fridge', icon:"st.contact.contact.open", backgroundColor:"#ffa81e")
+         }
+        }
+    ...
+
+    }
+
+Then, by using the method :ref:`childDeviceTile_DH_ref` within the refrigerator parent Device Handler, we can customize how the above fridge door tile ``mainDoor`` is pulled visually into the refrigerator composite tile. 
+See below:
+
+.. code-block:: groovy
+
+    // Refrigerator parent Device Handler
     metadata {
         definition (name: "Simulated Refrigerator", namespace: "smartthings/testing", author: "SmartThings") {
             capability "Contact Sensor"
@@ -161,8 +185,9 @@ See example below:
 
     }
 
-
 The example below illustrates how to put together a mobile visual interface on SmartThings mobile app for a simulated refrigerator composite device.
+
+----
 
 Example: Simulated refrigerator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
