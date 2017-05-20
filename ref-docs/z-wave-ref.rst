@@ -3,6 +3,13 @@
 Z-Wave Reference
 ================
 
-You can find the reference documentation for the SmartThings Z-Wave library `here <https://graph.api.smartthings.com/ide/doc/zwave-utils.html>`_ (requires login).
+- |z-wave-ref-docs|
+- |z-wave-public-spec|
 
-The Z-Wave public specification can be found `here <http://z-wave.sigmadesigns.com/design-z-wave/z-wave-public-specification>`__.
+.. |z-wave-ref-docs| raw:: html
+
+   <a href="../_static/groovydoc/overview-summary.html" target="_blank">Reference documentation for the SmartThings Z-Wave Classes.</a>
+
+.. |z-wave-public-spec| raw:: html
+
+  <a href="http://z-wave.sigmadesigns.com/design-z-wave/z-wave-public-specification" target="_blank">Z-Wave public specification on the Sigma Designs site.</a>
